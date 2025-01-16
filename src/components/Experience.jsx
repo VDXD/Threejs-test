@@ -19,14 +19,14 @@ export const Experience = ({ animation }) => {
       <OrbitControls enableZoom={false} enablePan={false} />
 
       <group position-y={-1}>
-        {/* <ContactShadows
+        <ContactShadows
           opacity={0.42}
           scale={10}
           blur={1}
           far={10}
           resolution={256}
           color="#000000"
-        /> */}
+        />
         <Avatar animation={animation} position={[0, 0.3, 0]} />
 
         <ambientLight intensity={1} />

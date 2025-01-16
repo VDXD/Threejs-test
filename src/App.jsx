@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 function App() {
   const [animationName, setAnimationName] = useState("Idle");
 
+
   return (
     <>
       <Navbar setAnimationName={setAnimationName} />
